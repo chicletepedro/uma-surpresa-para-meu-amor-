@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Meu Amor 💖 - Página 2</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #f88487, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.4em;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      line-height: 1.6;
+    }
+    .button {
+      background: hwb(0 100% 0%);
+      color: #e91e63;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.3s;
+      user-select: none;
+    }
+    .button:hover {
+      background: #f8bbd0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Imagem no topo -->
+  <div class="galeria">
+  <img src="imagens/nossafoto3.jpg.jpeg"Foto 1" />
+  <img src="imagens/nossafoto4.jpg.jpeg" alt="Foto 2" />
+</div>
+
+
+  <h1>Meu Amor, Minha Vida</h1>
+
+  <p>
+    Oi, amor. Eu queria te dizer que te amo muito, mas às vezes sinto que só dizer isso não é suficiente. Quando olho para você, é como ver o reflexo da alma mais bela que já conheci em minha vida, que se perpetua em minha mente de uma forma infinita. Você me trouxe algo que eu não sentia há muito tempo: paz e leveza. Isso é o que sinto ao seu lado — uma enorme paz, uma paz tão grande que chego a me questionar se é a realização de uma das maiores orações que já fiz a Deus.
+
+Quero te dizer que, ao seu lado, é onde me sinto pertencente, onde me sinto amado, porque seu amor atinge minha alma. Seu amor é luz na escuridão para mim, seu amor me motiva a ser melhor todos os dias, e eu tento ser o melhor que posso para você. Quero te fazer a pessoa mais feliz do mundo, assim como você me faz sentir.
+
+Dizer que te sentir é bom seria muito razoável; eu diria que seu toque me atinge de uma forma única, como uma conexão de alma, uma conexão imaterial que transcende o real e chega a ser fatal — não para mim, mas para aquilo que eu sempre duvidei: será que alguém pode ser tão incrível assim? Só que essa pergunta virou boba perto de você, porque você é incrível. Você me deixa bem quando estou mal, me faz sorrir quando estou triste, me fez me sentir bem comigo mesmo, e isso é surreal para mim.
+
+Às vezes (na verdade, todos os dias) me pego olhando para você e pensando: como? Como pode isso ter acontecido logo comigo? Eu não sei explicar, mas sei que fui o escolhido, o escolhido para ter os dias mais iluminados, alegres e profundos.
+
+Meu amor, digo a você que, por onde passa, você chama atenção — não só pela sua beleza, mas porque você é isso: luz. Obrigado por cuidar de mim da melhor forma que pode, muito obrigado por ser tão carinhosa comigo e me dar todo o seu amor. Todos os nossos momentos estão eternizados em meu coração. 🤍
+  </p>
+
+  <!-- Botão para tocar/parar música -->
+  <button class="button" id="toggleMusic">Tocar Música 🎶</button>
+
+  <!-- Áudio -->
+  <audio id="musica" loop>
+    <source src="nossa.music.mp3.mp3" type="audio/mp3" />
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <script>
+    const musica = document.getElementById('musica');
+    const botao = document.getElementById('toggleMusic');
+
+    botao.addEventListener('click', () => {
+      if (musica.paused) {
+        musica.play();
+        botao.textContent = 'Pausar Música';
+      } else {
+        musica.pause();
+        botao.textContent = 'Tocar Música';
+      }
+    });
+  </script>
+<script src="js/├─ coracoes.js" defer></script>
+</body>
+</html>
